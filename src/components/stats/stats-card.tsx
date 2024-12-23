@@ -10,7 +10,7 @@ interface StatsCardProps {
 
 export function StatsCard({ title, stats }: StatsCardProps) {
   return (
-    <Card className="p-6">
+    <Card className="p-6 w-">
       <div className="flex items-center gap-4 mb-4">
         <img
           src="/logosmall.svg"
